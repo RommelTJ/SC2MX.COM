@@ -1,0 +1,2 @@
+Action php54-cgi /learn/php54.cgi
+AddHandler php54-cgi .php

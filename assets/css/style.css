@@ -1,0 +1,64 @@
+/* 
+SC2MX.com stylesheet
+Author: Rommel Rico
+Last Modified: 19/May/2012
+*/
+
+/* Import Bootstrap's stylesheet */
+@import url(bootstrap.css);
+
+/* Now my custom styles */
+body {
+	background:url(../img/background_t.jpg)
+	no-repeat scroll center top;
+	background-color:#000000;
+	height:1%;
+}
+
+.container1 {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-1000px;
+	width:960px;
+}
+
+.container2 {
+	width: 960px;
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+       border-radius: 6px;
+}
+
+.container3{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-60px;
+	width: 940px;
+}
+
+hr2 {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #ffffff;
+}
+
+#logo {
+	position: relative;
+	top:40px;
+	z-index:3;
+}
+
+.navbar-inner{
+	background-color:#1c4b83;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1c4b83), color-stop(90%, #09111c), to(#09111c));
+	background-image:-webkit-linear-gradient(#1c4b83, #09111c 90%, #09111c);
+	background-image: -moz-linear-gradient(top, #1c4b83, #09111c 90%, #09111c);
+	background-image: -ms-linear-gradient(#1c4b83, #09111c 90%, #09111c);
+	background-image:-o-linear-gradient(#1c4b83, #09111c 90%, #09111c);
+	background-image:linear-gradient(#1c4b83, #09111c 90%, #09111c);
+	background-repeat:no-repeat;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c4b83', endColorstr='#09111c', GradientType=0);
+}
